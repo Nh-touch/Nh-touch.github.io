@@ -1,15 +1,11 @@
-<<<<<<< HEAD
-#一点点说明
+#项目来源：
 
-这是[BeiYuu.com](http://beiyuu.com)的示例代码，如果你看了[使用Github Pages建独立博客](http://beiyuu.com/github-pages/)，希望看下去哦：
+本项目Fork自[BeiYuu.com](http://beiyuu.com)的示例代码，感谢作者。
 
-* 马上动手，很赞
-* 感谢认可
-* 推荐阅读：[我为什么写博客？](http://beiyuu.com/why-blog/)
-* 想复用我的设计，没问题，标个出处就好啦
-* 转载也没问题，标个出处呗少年
-* 恩，认真的童鞋最可爱啦~
-=======
-hzj1989a.github.io
-==================
->>>>>>> 96c3cf01dc2e1648d17d995c2db25b9f487de9d3
+如果您想学习使用Jekyll静态网站生成器，可以参考教程[使用Github Pages建独立博客](http://beiyuu.com/github-pages/)。
+包含章节：
+1. Github账号设置
+2. Jekyll模板系统简介
+3. Disqus等Jekyll插件
+4. 搭建本地Jekyll环境
+
