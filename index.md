@@ -51,17 +51,20 @@ layout: home
 	    $("#link-opinion").removeClass();
 		$("#link-project").removeClass();
 		$("#link-blog").addClass("on");
+		$('html, body').animate({scrollTop:0}, 'slow');
 	   });
 	$("#link-opinion").click(function(){
 	    $("#main").attr("class","index-content opinion");
 	    $("#link-blog").removeClass();
 		$("#link-project").removeClass();
 		$("#link-opinion").addClass("on");
+		$('html, body').animate({scrollTop:0}, 'slow');
 	   });
 	$("#link-project").click(function(){
 	    $("#main").attr("class","index-content project");
 	    $("#link-opinion").removeClass();
 		$("#link-blog").removeClass();
         $("#link-project").addClass("on");
+		$('html, body').animate({scrollTop:0}, 'slow');
 	});
 </script>
