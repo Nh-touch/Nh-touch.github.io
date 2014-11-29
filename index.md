@@ -43,6 +43,9 @@ layout: home
     </div>
 </div>
 <script type="text/javascript">
+    $(documnet).ready(function(){
+	    window.location.href="#blog";
+	});
     $("#link-blog").click(function(){
 	    $("#main").attr("class","index-content blog");
 	    $("#link-opinion").removeClass();
