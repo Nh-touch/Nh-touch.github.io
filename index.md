@@ -44,7 +44,7 @@ layout: home
 </div>
 <script type="text/javascript">
 	window.onload = function(){ 
-        $("#link-blog").trigger("click");
+        document.getElementById("link-blog").click();
     }; 
     $("#link-blog").click(function(){
 	    $("#main").attr("class","index-content blog");
