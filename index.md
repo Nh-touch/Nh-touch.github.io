@@ -5,7 +5,7 @@ layout: home
 <div class="index-content blog" id="main">
     <div class="section">
         <ul class="artical-cate" id="navigate">
-            <li style="text-align:left" class="on"  id="link-blog"><a href="#blog"><span>Blog</span></a></li>
+            <li style="text-align:left" class="on" id="link-blog"><a href="#blog"><span>Blog</span></a></li>
             <li style="text-align:center" id="link-opinion"><a href="#opinion"><span>Opinion</span></a></li>
             <li style="text-align:right" id="link-project"><a href="#project"><span>Project</span></a></li>
         </ul>
@@ -42,26 +42,24 @@ layout: home
     <div class="aside" id="pic">
     </div>
 </div>
- <script type="text/javascript">
-    $(document).ready(function(){
+     <script type="text/javascript">
 	   $("#link-blog").trigger("click");
-	});
-    $("#link-blog").click(function(){
+       $("#link-blog").click(function(){
 	    $("#main").attr("class","index-content blog");
 	    $("#link-opinion").removeClass();
 		$("#link-project").removeClass();
 		$("#link-blog").addClass("on");
-	});
-	$("#link-opinion").click(function(){
+	   });
+	   $("#link-opinion").click(function(){
 	    $("#main").attr("class","index-content opinion");
 	    $("#link-blog").removeClass();
 		$("#link-project").removeClass();
 		$("#link-opinion").addClass("on");
-	});
-	$("#link-project").click(function(){
+	   });
+	   $("#link-project").click(function(){
 	    $("#main").attr("class","index-content project");
 	    $("#link-opinion").removeClass();
 		$("#link-blog").removeClass();
 		$("#link-project").addClass("on");
-	});
-</script>
+	   });
+    </script>
