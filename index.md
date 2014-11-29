@@ -43,9 +43,9 @@ layout: home
     </div>
 </div>
 <script type="text/javascript">
-	window.onload = function(){ 
-        document.getElementById("link-blog").click();
-    }; 
+    $(documnet).ready(function(){
+	    $("#link-blog").click();
+	});
     $("#link-blog").click(function(){
 	    $("#main").attr("class","index-content blog");
 	    $("#link-opinion").removeClass();
