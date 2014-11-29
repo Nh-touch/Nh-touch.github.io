@@ -2,7 +2,7 @@
 layout: home
 ---
 
-<div class="index-content blog">
+<div class="index-content blog" id="main">
     <div class="section">
         <ul class="artical-cate" id="navigate">
             <li style="text-align:left" class="on"  id="link-blog"><a href="#blog"><span>Blog</span></a></li>
@@ -44,16 +44,19 @@ layout: home
 </div>
  <script type="text/javascript">
     $("#link-blog").click(function(){
+	    $("#main").attr("class","index-content blog");
 	    $("#link-opinion").removeClass();
 		$("#link-project").removeClass();
 		$("#link-blog").addClass("On");
 	});
 	$("#link-opinion").click(function(){
+	    $("#main").attr("class","index-content opinion");
 	    $("#link-blog").removeClass();
 		$("#link-project").removeClass();
 		$("#link-opinion").addClass("On");
 	});
 	$("#link-project").click(function(){
+	    $("#main").attr("class","index-content project");
 	    $("#link-opinion").removeClass();
 		$("#link-blog").removeClass();
 		$("#link-project").addClass("On");
