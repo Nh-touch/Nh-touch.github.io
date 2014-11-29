@@ -60,7 +60,7 @@ layout: home
 	function showImg(){
         count = count+1;
 		if(count==3){
-		   $("#pic").css("opacity", 1);
+		   $("#pic").animate({opacity:1},1500);
 		}
     }
 	
