@@ -43,7 +43,7 @@ layout: home
     </div>
 </div>
  <script type="text/javascript">
-    $(document).Ready(function(){
+    $(document).ready(function(){
 	   $("#link-blog").trigger("click");
 	});
     $("#link-blog").click(function(){
