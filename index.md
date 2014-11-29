@@ -43,7 +43,9 @@ layout: home
     </div>
 </div>
 <script type="text/javascript">
-	$("#link-blog").trigger("click");
+	window.onload = function(){ 
+        $("#link-blog").trigger("click");
+    }; 
     $("#link-blog").click(function(){
 	    $("#main").attr("class","index-content blog");
 	    $("#link-opinion").removeClass();
