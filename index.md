@@ -5,9 +5,9 @@ layout: home
 <div class="index-content blog">
     <div class="section">
         <ul class="artical-cate" id="navigate">
-            <li style="text-align:left" class="on"><a href="#blog" id="#link-blog"><span>Blog</span></a></li>
-            <li style="text-align:center" id="#link-opinion"><a href="#opinion"><span>Opinion</span></a></li>
-            <li style="text-align:right" id="#link-project"><a href="#project"><span>Project</span></a></li>
+            <li style="text-align:left" class="on"  id="link-blog"><a href="#blog"><span>Blog</span></a></li>
+            <li style="text-align:center" id="link-opinion"><a href="#opinion"><span>Opinion</span></a></li>
+            <li style="text-align:right" id="link-project"><a href="#project"><span>Project</span></a></li>
         </ul>
 
         <div class="cate-bar"><span id="cateBar"></span></div>
@@ -42,3 +42,20 @@ layout: home
     <div class="aside" id="pic">
     </div>
 </div>
+ <script type="text/javascript">
+    $("#link-blog").click(function(){
+	    $("#link-opinion").removeClass();
+		$("#link-project").removeClass();
+		$("#link-blog").addClass("On");
+	});
+	$("#link-opinion").click(function(){
+	    $("#link-blog").removeClass();
+		$("#link-project").removeClass();
+		$("#link-opinion").addClass("On");
+	});
+	$("#link-project").click(function(){
+	    $("#link-opinion").removeClass();
+		$("#link-blog").removeClass();
+		$("#link-project").addClass("On");
+	});
+</script>
