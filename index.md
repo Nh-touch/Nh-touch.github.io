@@ -5,7 +5,7 @@ layout: home
 <div class="index-content blog">
     <div class="section">
         <ul class="artical-cate" id="navigate">
-            <li class="on"><a href="#blog" id="#link-blog"><span>Blog</span></a></li>
+            <li style="text-align:left" class="on"><a href="#blog" id="#link-blog"><span>Blog</span></a></li>
             <li style="text-align:center" id="#link-opinion"><a href="#opinion"><span>Opinion</span></a></li>
             <li style="text-align:right" id="#link-project"><a href="#project"><span>Project</span></a></li>
         </ul>
