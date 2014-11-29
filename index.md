@@ -43,7 +43,7 @@ layout: home
     </div>
 </div>
 <script type="text/javascript">
-    $(documnet).ready(function(){
+    $(document).ready(function(){
 	    window.location.href="#blog";
 	});
     $("#link-blog").click(function(){
