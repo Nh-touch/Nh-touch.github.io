@@ -43,9 +43,36 @@ layout: home
     </div>
 </div>
 <script type="text/javascript">
+    var count=0;
+    function loadImage(url, callback) {
+     var img = new Image(); 
+     img.src = url;
+  
+     if (img.complete) { 
+        callback.call(img);
+        return; 
+     }
+     img.onload = function () { 
+        callback.call(img);
+     };
+    };
+	
+	function showImg(){
+        count = count+1;
+		if(count==3){
+		   $("#pic").css("opacity", 1);
+		}
+    }
+	
     $(document).ready(function(){
+	    $("#pic").css("opacity", 0);
 	    window.location.href="#blog";
+		var imgUrl = ['1t.jpg','2t.jpg','3t.jpg'];
+	    for(var i = 0; i < imgUrl.length; i++) {
+		loadImage('images/' + imgUrl[i],showImg);
+	    }
 	});
+	
     $("#link-blog").click(function(){
 	    $("#main").attr("class","index-content blog");
 	    $("#link-opinion").removeClass();
