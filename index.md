@@ -47,18 +47,18 @@ layout: home
 	    $("#main").attr("class","index-content blog");
 	    $("#link-opinion").removeClass();
 		$("#link-project").removeClass();
-		$("#link-blog").addClass("On");
+		$("#link-blog").addClass("on");
 	});
 	$("#link-opinion").click(function(){
 	    $("#main").attr("class","index-content opinion");
 	    $("#link-blog").removeClass();
 		$("#link-project").removeClass();
-		$("#link-opinion").addClass("On");
+		$("#link-opinion").addClass("on");
 	});
 	$("#link-project").click(function(){
 	    $("#main").attr("class","index-content project");
 	    $("#link-opinion").removeClass();
 		$("#link-blog").removeClass();
-		$("#link-project").addClass("On");
+		$("#link-project").addClass("on");
 	});
 </script>
