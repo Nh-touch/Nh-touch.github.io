@@ -94,7 +94,7 @@ pre ol{margin-left:25px;list-style-type:decimal;}
 }
 .index-content .section { margin-left:30%; padding-top:80px; padding-right:15%; ;}
 
-.index-content .artical-list { width:70%; margin:0 auto; opacity: 0;position: absolute;margin-top: -150%;}
+.index-content .artical-list { width:70%;opacity: 0;position: absolute;margin-top: -150%;}
 .artical-list:target{opacity: 1;margin-top: 0%;}
 .index-content .artical-list li { margin-bottom:70px; }
 .index-content h2 { font-size:20px; margin-bottom:15px; word-break: break-all;}
