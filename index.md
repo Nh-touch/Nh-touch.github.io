@@ -42,24 +42,24 @@ layout: home
     <div class="aside" id="pic">
     </div>
 </div>
-     <script type="text/javascript">
-	   $("#link-blog").trigger("click");
-       $("#link-blog").click(function(){
+<script type="text/javascript">
+	$("#link-blog").trigger("click");
+    $("#link-blog").click(function(){
 	    $("#main").attr("class","index-content blog");
 	    $("#link-opinion").removeClass();
 		$("#link-project").removeClass();
 		$("#link-blog").addClass("on");
 	   });
-	   $("#link-opinion").click(function(){
+	$("#link-opinion").click(function(){
 	    $("#main").attr("class","index-content opinion");
 	    $("#link-blog").removeClass();
 		$("#link-project").removeClass();
 		$("#link-opinion").addClass("on");
 	   });
-	   $("#link-project").click(function(){
+	$("#link-project").click(function(){
 	    $("#main").attr("class","index-content project");
 	    $("#link-opinion").removeClass();
 		$("#link-blog").removeClass();
-		$("#link-project").addClass("on");
-	   });
-    </script>
+        $("#link-project").addClass("on");
+	});
+</script>
