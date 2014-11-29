@@ -183,3 +183,7 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
 @media (max-width: 1300px){
     .home-menu { position:absolute; }
 }
+
+#blog:target ~ #navigate #pic #blog,
+#opinion:target ~ #navigate #pic #opinion,
+#project:target ~ #navigate #pic #project{}
