@@ -43,9 +43,6 @@ layout: home
     </div>
 </div>
 <script type="text/javascript">
-    $(documnet).ready(function(){
-	    $("#link-blog").click();
-	});
     $("#link-blog").click(function(){
 	    $("#main").attr("class","index-content blog");
 	    $("#link-opinion").removeClass();
