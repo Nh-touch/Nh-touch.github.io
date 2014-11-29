@@ -98,7 +98,6 @@ pre ol{margin-left:25px;list-style-type:decimal;}
 .index-content .artical-list { 
      width:62%;
 	 opacity: 0;
-	 position: absolute;
 	 margin-left:8%;
 	 z-index:2;
 	 -webkit-transition: opacity .3s ease-in-out;
@@ -107,7 +106,7 @@ pre ol{margin-left:25px;list-style-type:decimal;}
 	 -ms-transition: opacity .3s ease-in-out;
 	 transition: opacity .3s ease-in-out;
 }
-.artical-list:target{opacity: 1;margin-top: 0%;}
+.artical-list:target{opacity: 1;position: absolute;margin-top: 0%;}
 .index-content .artical-list li { margin-bottom:70px; }
 .index-content h2 { font-size:20px; margin-bottom:15px; word-break: break-all;}
 .index-content h2 a { color:#444 }
