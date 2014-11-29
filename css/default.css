@@ -83,12 +83,6 @@ pre ol{margin-left:25px;list-style-type:decimal;}
     background-size:cover;
     background-position:50% 50%;
 	border-right:solid 1px;
-    z-index:2;
-	-webkit-transition: opacity .3s ease-in-out;
-	-moz-transition: opacity .3s ease-in-out;
-	-o-transition: opacity .3s ease-in-out;
-	-ms-transition: opacity .3s ease-in-out;
-	transition: opacity .3s ease-in-out;
 }
 .blog .aside{
     background-image:url(../images/1t.jpg);
