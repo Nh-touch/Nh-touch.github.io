@@ -184,6 +184,6 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
     .home-menu { position:absolute; }
 }
 
-#blog:target ~ #navigate #pic #blog,
-#opinion:target ~ #navigate #pic #opinion,
-#project:target ~ #navigate #pic #project{}
+#blog:target ~ #navigate #pic #link-blog,
+#opinion:target ~ #navigate #pic #link-opinion,
+#project:target ~ #navigate #pic #link-project{}
