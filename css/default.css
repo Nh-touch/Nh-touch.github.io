@@ -82,32 +82,21 @@ pre ol{margin-left:25px;list-style-type:decimal;}
     box-shadow:inset -1px 0 0 rgba(0,0,0,0.3);
     background-size:cover;
     background-position:50% 50%;
+	border-right:solid 1px;
+    z-index:2;
+	-webkit-transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	-o-transition: opacity .3s ease-in-out;
+	-ms-transition: opacity .3s ease-in-out;
+	transition: opacity .3s ease-in-out;
 }
 .blog .aside{
-     z-index:2;
-	 -webkit-transition: opacity .3s ease-in-out;
-	 -moz-transition: opacity .3s ease-in-out;
-	 -o-transition: opacity .3s ease-in-out;
-	 -ms-transition: opacity .3s ease-in-out;
-	 transition: opacity .3s ease-in-out;
     background-image:url(../images/1t.jpg);
 }
 .opinion .aside{
-     z-index:2;
-	 -webkit-transition: opacity .3s ease-in-out;
-	 -moz-transition: opacity .3s ease-in-out;
-	 -o-transition: opacity .3s ease-in-out;
-	 -ms-transition: opacity .3s ease-in-out;
-	 transition: opacity .3s ease-in-out;
     background-image:url(../images/2t.jpg);
 }
 .project .aside{
-     z-index:2;
-	 -webkit-transition: opacity .3s ease-in-out;
-	 -moz-transition: opacity .3s ease-in-out;
-	 -o-transition: opacity .3s ease-in-out;
-	 -ms-transition: opacity .3s ease-in-out;
-	 transition: opacity .3s ease-in-out;
     background-image:url(../images/3t.jpg)
 }
 .index-content .section { margin-left:30%; padding-top:80px; padding-right:15%; ;}
