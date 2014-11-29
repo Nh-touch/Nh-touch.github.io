@@ -79,6 +79,7 @@ layout: home
 		$("#link-project").removeClass();
 		$("#link-blog").addClass("on");
 		$('html, body').animate({scrollTop:0}, 'slow');
+		$("#pic").css("opacity", 0);
 		$("#pic").animate({opacity:1},500);
 	   });
 	$("#link-opinion").click(function(){
@@ -87,6 +88,7 @@ layout: home
 		$("#link-project").removeClass();
 		$("#link-opinion").addClass("on");
 		$('html, body').animate({scrollTop:0}, 'slow');
+		$("#pic").css("opacity", 0);
 		$("#pic").animate({opacity:1},500);
 	   });
 	$("#link-project").click(function(){
@@ -95,6 +97,7 @@ layout: home
 		$("#link-blog").removeClass();
         $("#link-project").addClass("on");
 		$('html, body').animate({scrollTop:0}, 'slow');
+		$("#pic").css("opacity", 0);
 		$("#pic").animate({opacity:1},500);
 	});
 </script>
