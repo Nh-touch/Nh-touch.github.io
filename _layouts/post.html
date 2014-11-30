@@ -49,3 +49,16 @@ layout: default
 </div>
 
 <script src="/js/post.js" type="text/javascript"></script>
+<script type="text/javascript" src="/js/jquery.goup.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $.goup({
+                trigger: 100,
+                bottomOffset: 150,
+                locationOffset: 100,
+                title: 'Top',
+                titleAsText: true
+            });
+        });
+    </script>
+
