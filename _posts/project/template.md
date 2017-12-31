@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: jQuery解构
 category: project

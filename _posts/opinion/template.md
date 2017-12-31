@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: 谈谈刚需和360影视
 category: opinion
