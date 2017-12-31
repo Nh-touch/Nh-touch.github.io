@@ -1,4 +1,4 @@
-О╩©---
+---
 layout: post
 title: ╨ЗятбрсОк╣╪Р╣╔
 category: opinion
