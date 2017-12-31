@@ -1,14 +1,10 @@
-﻿#项目来源：
+Project Source：
 ---
-本项目Fork自[BeiYuu.com](http://beiyuu.com)的示例代码，感谢作者。
+This Project Forked From[BeiYuu.com](http://beiyuu.com) based on Jekyll.
+Jekyll [En][1],[中文][2]site generator.
 
-如果您想学习使用Jekyll [En][1],[中文][2]静态网站生成器，可以参考教程[使用Github Pages建独立博客][3]。
-包含章节：
-* Github账号设置
-* Jekyll模板系统简介
-* Disqus等Jekyll插件
-* 搭建本地Jekyll环境
+## Purpose:
+This blog is aimed to record the **project**'s detail and share views on different **domain**.
 
 [1]: http://jekyllrb.com/
 [2]: http://jekyllcn.com/
-[3]: http://beiyuu.com/github-pages/
