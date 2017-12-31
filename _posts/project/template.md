@@ -1,8 +1,8 @@
 ---
 layout: post
-title: jQuery½â¹¹
+title: jQueryè§£æ„
 category: project
-description: jQueryÊÇÒ»¸öÎ°´ó×÷Æ·£¬ËûµÄÍê³É³äÂúÖÇ»Û£¬ÎÒÃÇÀ´Ò»µãµã²ğ½âËû£¬È¥Àí½â×÷ÕßµÄË¼Ïë¾«»ª¡£
+description: jQueryæ˜¯ä¸€ä¸ªä¼Ÿå¤§ä½œå“ï¼Œä»–çš„å®Œæˆå……æ»¡æ™ºæ…§ï¼Œæˆ‘ä»¬æ¥ä¸€ç‚¹ç‚¹æ‹†è§£ä»–ï¼Œå»ç†è§£ä½œè€…çš„æ€æƒ³ç²¾åã€‚
 ---
 # [{{ page.title }}][1]
 2012-01-16 By {{ site.author_info }}
@@ -10,4 +10,3 @@ description: jQueryÊÇÒ»¸öÎ°´ó×÷Æ·£¬ËûµÄÍê³É³äÂúÖÇ»Û£¬ÎÒÃÇÀ´Ò»µãµã²ğ½âËû£¬È¥Àí½â×
 
 [BeiYuu]:    http://beiyuu.com  "BeiYuu"
 [1]:    {{ page.url}}  ({{ page.title }})
-
