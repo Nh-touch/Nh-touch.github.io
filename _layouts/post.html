@@ -18,6 +18,7 @@ layout: default
         <h1 class="entry-title"><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h1>
         <p class="entry-date">{{ page.date|date:"%Y-%m-%d" }}</p>
         {{ content }}
+
         <div id="gitmentContainer"></div>
         <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
         <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
@@ -32,6 +33,16 @@ layout: default
         });
         gitment.render('gitmentContainer');
         </script>
+        <!-- JiaThis Button BEGIN -->
+        <div class="jiathis_style">
+            <a class="jiathis_button_icons_1"></a>
+            <a class="jiathis_button_icons_2"></a>
+            <a class="jiathis_button_icons_3"></a>
+            <a class="jiathis_button_icons_4"></a>
+            <a class="jiathis_button_icons_5"></a>
+        </div>
+        <!-- JiaThis Button END -->
+        
         <div style = "font-size:0.5px;color:grey;" align = "right">
         HZJun [<span id="busuanzi_value_page_pv"></span>]
         </div>
@@ -78,4 +89,15 @@ layout: default
             });
         });
     </script>
+
+<script type="text/javascript" >
+var jiathis_config={
+    siteNum:5,
+    sm:"weixin,tsina,ydnote,googleplus,linkedin",
+    summary:"",
+    shortUrl:false,
+    hideMore:false
+}
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code_mini/jia.js" charset="utf-8"></script>
 
