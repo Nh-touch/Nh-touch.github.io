@@ -124,6 +124,6 @@ if...return结构通常用于异常条件排除(如函数入参检查）
 ## 总结：
 if语句在编码中较常用，养成良好的if...else语句使用习惯，应对不同的使用场景是编码过程中较为重要的一点。
 
-<div align="right"><font color=red size=1 face="微软雅黑"><b>欢迎转载 请注明出处 如有错误、疑问或者补充请在下方留言 谢谢 ^ ^</b></font></div>
+<div align="right" style="color:red;font-size:1px"><b>欢迎转载 请注明出处 如有错误、疑问或者补充请在下方留言 谢谢 ^ ^</b></div>
 
 
