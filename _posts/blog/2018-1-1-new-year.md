@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  起航！2018
-description: 历年的经验告诉我，没有计划的人会被时间淡忘。
+description: 历年的经验告诉我，没有计划的人可能会被时间淡忘。
 category: blog
 ---
 ## 醒了
