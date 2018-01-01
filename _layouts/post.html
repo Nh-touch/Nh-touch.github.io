@@ -18,6 +18,20 @@ layout: default
         <h1 class="entry-title"><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h1>
         <p class="entry-date">{{ page.date|date:"%Y-%m-%d" }}</p>
         {{ content }}
+        <div id="gitmentContainer"></div>
+        <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+        <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+        <script>
+        var gitment = new Gitment({
+            owner: 'Nh-touch',
+            repo: 'Nh-touch.github.io',
+            oauth: {
+                client_id: 'f1a43b541ab8887000d0',
+                client_secret: '3ef7b09c21bab374e571c5413c03fa210de2559e',
+            },
+        });
+        gitment.render('gitmentContainer');
+        </script>
         <div style = "font-size:0.5px;color:grey;" align = "right">
         HZJun [<span id="busuanzi_value_page_pv"></span>]
         </div>
