@@ -1,35 +1,119 @@
-/*
- * Derived from einaros's Sons of Obsidian theme at
- * http://studiostyl.es/schemes/son-of-obsidian by
- * Alex Ford of CodeTunnel:
- * http://CodeTunnel.com/blog/post/71/google-code-prettify-obsidian-theme
- */
+/*! Color themes for Google Code Prettify | MIT License | github.com/jmblog/color-themes-for-google-code-prettify */
+.prettyprint {
+  background: #f1efee;
+  font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
+  border: 0 !important;
+}
 
-.str{color: #EC7600;}
-.kwd{color:#93C763;}
-.com{color:#66747B;}
-.typ{color:#678CB1;}
-.lit{color:#FACD22;}
-.pun{color:#F1F2F3;}
-.pln{color:#F1F2F3;}
-.tag{color:#8AC763;}
-.atn{color:#E0E2E4;}
-.atv{color:#EC7600;}
-.dec{color:purple;}
-pre.prettyprint {border:0px solid #888;}
-ol.linenums{margin-top:0;margin-bottom:0;}
-.prettyprint{background:#000;}
-li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9{color:#555;}
-li.L1, li.L3, li.L5, li.L7, li.L9{background:#111;}
-@media print {
-    .str{color:#060;}
-    .kwd{color:#006;font-weight:bold;}
-    .com{color:#600;font-style:italic;}
-    .typ{color:#404;font-weight:bold;}
-    .lit{color:#044;}
-    .pun{color:#440;}
-    .pln{color:#000;}
-    .tag{color:#006;font-weight:bold;}
-    .atn{color:#404;}
-    .atv{color:#060;}
+.pln {
+  color: #1b1918;
+}
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #9c9491;
+}
+
+li.L0,
+li.L1,
+li.L2,
+li.L3,
+li.L4,
+li.L5,
+li.L6,
+li.L7,
+li.L8,
+li.L9 {
+  padding-left: 1em;
+  background-color: #f1efee;
+  list-style-type: decimal;
+}
+
+@media screen {
+
+  /* string content */
+
+  .str {
+    color: #7b9726;
+  }
+
+  /* keyword */
+
+  .kwd {
+    color: #6666ea;
+  }
+
+  /* comment */
+
+  .com {
+    color: #9c9491;
+  }
+
+  /* type name */
+
+  .typ {
+    color: #407ee7;
+  }
+
+  /* literal value */
+
+  .lit {
+    color: #df5320;
+  }
+
+  /* punctuation */
+
+  .pun {
+    color: #1b1918;
+  }
+
+  /* lisp open bracket */
+
+  .opn {
+    color: #1b1918;
+  }
+
+  /* lisp close bracket */
+
+  .clo {
+    color: #1b1918;
+  }
+
+  /* markup tag name */
+
+  .tag {
+    color: #f22c40;
+  }
+
+  /* markup attribute name */
+
+  .atn {
+    color: #df5320;
+  }
+
+  /* markup attribute value */
+
+  .atv {
+    color: #3d97b8;
+  }
+
+  /* declaration */
+
+  .dec {
+    color: #df5320;
+  }
+
+  /* variable name */
+
+  .var {
+    color: #f22c40;
+  }
+
+  /* function name */
+
+  .fun {
+    color: #407ee7;
+  }
 }
