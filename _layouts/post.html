@@ -51,6 +51,12 @@ layout: default
 		<iframe width="100%" height="75" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=75&fansRow=2&ptype=1&speed=0&skin=5&isTitle=0&noborder=0&isWeibo=0&isFans=0&uid=1842391492&verifier=7f8d4909&dpc=1"></iframe>
     </div>
 
+    {% if page.show_music %}
+        <div class="sidenav">
+            <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=52 src="//music.163.com/outchain/player?type=2&id=531943&auto=1&height=32"></iframe>
+        </div>
+    {% endif %}
+
     <div class="sidenav">
         <h2>Blog</h2>
         <ul class="artical-list">
