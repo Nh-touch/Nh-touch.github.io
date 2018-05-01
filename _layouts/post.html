@@ -56,6 +56,11 @@ layout: default
                 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=52 src="{{ page.music_addr }}"></iframe>
         </div>
     {% endif %}
+    {% if page.show_localmusic %}
+            <audio src="{{ page.music_addr }}" style="margin-left:-520px" controls autoplay></audio>
+    {% endif %}
+    
+
 
     <div class="sidenav">
         <h2>Blog</h2>
