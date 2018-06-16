@@ -9,22 +9,22 @@ show_music: false
 
 ## 人物画作品集
 ##  
-![人物画1](/images/paintings/T1.jpg)
+![人物画1](/images/paintings/T1.JPG)
 
 ## 
-![人物画2](/images/paintings/T2.jpg)
+![人物画2](/images/paintings/T2.JPG)
 
 ## 
-![人物画3](/images/paintings/T3.jpg)
+![人物画3](/images/paintings/T3.JPG)
 
 ## 
-![人物画4](/images/paintings/T4.jpg)
+![人物画4](/images/paintings/T4.JPG)
 
 ## 
-![人物画5](/images/paintings/T5.jpg)
+![人物画5](/images/paintings/T5.JPG)
 
 ##  
-![人物画6](/images/paintings/T6.jpg)
+![人物画6](/images/paintings/T6.JPG)
 
 <div style="color:blue;font-size:1px;" align="right">未完待续...</div>
 
